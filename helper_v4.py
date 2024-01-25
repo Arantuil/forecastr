@@ -1,6 +1,6 @@
-from fbprophet import Prophet
-from fbprophet.diagnostics import cross_validation
-from fbprophet.diagnostics import performance_metrics
+from prophet import Prophet
+from prophet.diagnostics import cross_validation
+from prophet.diagnostics import performance_metrics
 import pandas as pd
 import numpy as np
 from flask_socketio import SocketIO, emit
